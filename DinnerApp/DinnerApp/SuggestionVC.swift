@@ -12,45 +12,56 @@ import GoogleMobileAds
 
 
 
-class SuggestionVC: UIViewController {
+class SuggestionVC: UIViewController, GADInterstitialDelegate {
     
     @IBOutlet weak var entreeLbl: UILabel!
     @IBOutlet weak var settledLbl: UILabel!
     @IBOutlet weak var seeRecipeBtn: RoundButton!
     @IBOutlet weak var tryAgainBtn: RoundButton!
     
-    //let provider = NumberProvider() //create instance
-    
-    
     var number = randomNum()
     
-    var numberTryAgainPressed = 1
+    var numberTryAgainPressed = 2
         //counts the number of times "Try Again" btn has been pressed
-    
-    var interstitialAd: GADInterstitial!
-    //Google Ads
+
+    var interstitialAd: GADInterstitial?
+        //Google Ads
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         entreeLbl.text = entree[number].name
         
-        
         //SET-UP & CONFIGURE INTERSTITIAL AD:
-        interstitialAd = GADInterstitial(adUnitID: "ca-app-pub-8878911622308650/9804776722")
+        interstitialAd = createAndLoadInterstitial()
         
-        let requestInterstitial = GADRequest()
-        requestInterstitial.testDevices = [kGADSimulatorID]
+    }
+    
+    func createAndLoadInterstitial() -> GADInterstitial {
         
-        interstitialAd.load(requestInterstitial)
+        let request = GADRequest()
+        let interstitial = GADInterstitial(adUnitID: "ca-app-pub-8878911622308650/9804776722")
+        request.testDevices = [kGADSimulatorID]
+        interstitial.delegate = self
+        interstitial.load(request)
         
+        
+        return interstitial
+    }
+    
+    func interstitialDidDismissScreen(_ ad: GADInterstitial) {
+        interstitialAd = createAndLoadInterstitial()
+        numberTryAgainPressed = 0
+            //Resets the "Try Again" pressed count to zero
     }
     
     @IBAction func seeRecipePressed(_ sender: Any) {
         
         
       if let url = NSURL(string: "\(entree[number].link)") {
-           UIApplication.shared.openURL(url as URL)
+        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        
+        
         }
         
     }
@@ -59,31 +70,31 @@ class SuggestionVC: UIViewController {
     
     @IBAction func tryAgainPressed(_ sender: Any) {
         
+        numberTryAgainPressed += 1
+        print(numberTryAgainPressed)
+            //can delete later
+        
+        
         entree.remove(at: number)
             //removes current Entree from array
         
         number = randomNum()
             //assigns new random number
-        
-        if (interstitialAd.isReady) {
-            
-            interstitialAd.present(fromRootViewController: self)
-            
-        }
     
         if entree.count > 0 { //If there are still Entrees in the array
             
             entreeLbl.text = entree[number].name
-            interstitialAd = createAd()
             
-            
-            
-            if numberTryAgainPressed > 2 {
+            if numberTryAgainPressed >= 3 {
                 
-                //none
+                if interstitialAd != nil {
+                    if interstitialAd!.isReady {
+                        
+                        interstitialAd?.present(fromRootViewController: self)
+                    }
+                }
+                
             }
-            
-            
             
         } else {
             
@@ -105,13 +116,13 @@ class SuggestionVC: UIViewController {
     }
     
     
-    func createAd () -> GADInterstitial {
-        
-        let InterstitialAd = GADInterstitial(adUnitID: "ca-app-pub-8878911622308650/9804776722")
-        InterstitialAd.load(GADRequest())
-        return InterstitialAd
-        
-    }
+//    func createAd () -> GADInterstitial {
+//        
+//        let InterstitialAd = GADInterstitial(adUnitID: "ca-app-pub-8878911622308650/9804776722")
+//        InterstitialAd.load(GADRequest())
+//        return InterstitialAd
+//        
+//    }
     
 
 }
