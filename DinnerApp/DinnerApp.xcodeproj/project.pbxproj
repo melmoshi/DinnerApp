@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		860A920D1EC39BC1000D5A86 /* IngredientsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860A920C1EC39BC1000D5A86 /* IngredientsButton.swift */; };
 		860A920F1EC41ED3000D5A86 /* SuggestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860A920E1EC41ED3000D5A86 /* SuggestionVC.swift */; };
+		86129F441EF4AD4600A8B7C8 /* entrees.csv in Resources */ = {isa = PBXBuildFile; fileRef = 86129F431EF4AD4600A8B7C8 /* entrees.csv */; };
+		86129F461EF5F1EB00A8B7C8 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86129F451EF5F1EB00A8B7C8 /* GoogleMobileAds.framework */; };
+		86129F481EF5F1FF00A8B7C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86129F471EF5F1FF00A8B7C8 /* GoogleService-Info.plist */; };
 		864133171EEB3E3A00306792 /* Entree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864133161EEB3E3A00306792 /* Entree.swift */; };
 		8641331B1EEB4A5300306792 /* EntreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641331A1EEB4A5300306792 /* EntreeView.swift */; };
-		8641331D1EEB7CBC00306792 /* entrees.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8641331C1EEB7CBC00306792 /* entrees.csv */; };
 		8641331F1EEB8AE500306792 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641331E1EEB8AE500306792 /* RoundButton.swift */; };
 		864133211EEB8CD500306792 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864133201EEB8CD500306792 /* csv.swift */; };
 		869C84021EABFA4200EA9968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C84011EABFA4200EA9968 /* AppDelegate.swift */; };
@@ -44,9 +46,11 @@
 /* Begin PBXFileReference section */
 		860A920C1EC39BC1000D5A86 /* IngredientsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsButton.swift; sourceTree = "<group>"; };
 		860A920E1EC41ED3000D5A86 /* SuggestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionVC.swift; sourceTree = "<group>"; };
+		86129F431EF4AD4600A8B7C8 /* entrees.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = entrees.csv; path = ../entrees.csv; sourceTree = "<group>"; };
+		86129F451EF5F1EB00A8B7C8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		86129F471EF5F1FF00A8B7C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		864133161EEB3E3A00306792 /* Entree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entree.swift; sourceTree = "<group>"; };
 		8641331A1EEB4A5300306792 /* EntreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntreeView.swift; sourceTree = "<group>"; };
-		8641331C1EEB7CBC00306792 /* entrees.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = entrees.csv; sourceTree = "<group>"; };
 		8641331E1EEB8AE500306792 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		864133201EEB8CD500306792 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		869C83FE1EABFA4200EA9968 /* DinnerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinnerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86129F461EF5F1EB00A8B7C8 /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +98,7 @@
 		869C83F51EABFA4200EA9968 = {
 			isa = PBXGroup;
 			children = (
+				86129F451EF5F1EB00A8B7C8 /* GoogleMobileAds.framework */,
 				869C84001EABFA4200EA9968 /* DinnerApp */,
 				869C84151EABFA4200EA9968 /* DinnerAppTests */,
 				869C84201EABFA4300EA9968 /* DinnerAppUITests */,
@@ -101,6 +107,7 @@
 				869C84081EABFA4200EA9968 /* Assets.xcassets */,
 				869C840A1EABFA4200EA9968 /* LaunchScreen.storyboard */,
 				869C840D1EABFA4200EA9968 /* Info.plist */,
+				86129F471EF5F1FF00A8B7C8 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,7 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				864133161EEB3E3A00306792 /* Entree.swift */,
-				8641331C1EEB7CBC00306792 /* entrees.csv */,
+				86129F431EF4AD4600A8B7C8 /* entrees.csv */,
 				864133201EEB8CD500306792 /* csv.swift */,
 			);
 			name = Model;
@@ -285,8 +292,9 @@
 			files = (
 				869C840C1EABFA4200EA9968 /* LaunchScreen.storyboard in Resources */,
 				869C84091EABFA4200EA9968 /* Assets.xcassets in Resources */,
+				86129F481EF5F1FF00A8B7C8 /* GoogleService-Info.plist in Resources */,
+				86129F441EF4AD4600A8B7C8 /* entrees.csv in Resources */,
 				869C84071EABFA4200EA9968 /* Main.storyboard in Resources */,
-				8641331D1EEB7CBC00306792 /* entrees.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +480,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DinnerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.moshimedia.DinnerApp;
@@ -484,6 +496,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DinnerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.moshimedia.DinnerApp;

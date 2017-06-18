@@ -8,12 +8,13 @@
 
 import UIKit
 import GameKit
+import GoogleMobileAds
+
+
 
 class SuggestionVC: UIViewController {
     
     @IBOutlet weak var entreeLbl: UILabel!
-    
-
     @IBOutlet weak var settledLbl: UILabel!
     @IBOutlet weak var seeRecipeBtn: RoundButton!
     @IBOutlet weak var tryAgainBtn: RoundButton!
@@ -21,17 +22,28 @@ class SuggestionVC: UIViewController {
     //let provider = NumberProvider() //create instance
     
     
-   var number = randomNum()
-
-
-
+    var number = randomNum()
+    
+    var numberTryAgainPressed = 1
+        //counts the number of times "Try Again" btn has been pressed
+    
+    var interstitialAd: GADInterstitial!
+    //Google Ads
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
-
         entreeLbl.text = entree[number].name
+        
+        
+        //SET-UP & CONFIGURE INTERSTITIAL AD:
+        interstitialAd = GADInterstitial(adUnitID: "ca-app-pub-8878911622308650/9804776722")
+        
+        let requestInterstitial = GADRequest()
+        requestInterstitial.testDevices = [kGADSimulatorID]
+        
+        interstitialAd.load(requestInterstitial)
+        
     }
     
     @IBAction func seeRecipePressed(_ sender: Any) {
@@ -52,10 +64,26 @@ class SuggestionVC: UIViewController {
         
         number = randomNum()
             //assigns new random number
+        
+        if (interstitialAd.isReady) {
+            
+            interstitialAd.present(fromRootViewController: self)
+            
+        }
     
-        if entree.count > 0 {
+        if entree.count > 0 { //If there are still Entrees in the array
             
             entreeLbl.text = entree[number].name
+            interstitialAd = createAd()
+            
+            
+            
+            if numberTryAgainPressed > 2 {
+                
+                //none
+            }
+            
+            
             
         } else {
             
@@ -67,7 +95,7 @@ class SuggestionVC: UIViewController {
             
         }
         
-        }
+    }
     
     
     
@@ -76,7 +104,15 @@ class SuggestionVC: UIViewController {
         entree = []
     }
     
-
+    
+    func createAd () -> GADInterstitial {
+        
+        let InterstitialAd = GADInterstitial(adUnitID: "ca-app-pub-8878911622308650/9804776722")
+        InterstitialAd.load(GADRequest())
+        return InterstitialAd
+        
+    }
+    
 
 }
 
@@ -88,4 +124,8 @@ class SuggestionVC: UIViewController {
         
         //Creates a random number to call from entree array
     }
+
+
+
+
 

@@ -7,18 +7,40 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
-class HomeVC: UIViewController {
+class HomeVC: UIViewController, GADBannerViewDelegate {
     
     
     @IBOutlet weak var LetsEat: UIButton!
     
-
+    @IBOutlet weak var bannerAd: GADBannerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //BANNER AD:
+        // Request
+        let requestBanner = GADRequest()
+        requestBanner.testDevices = [kGADSimulatorID]
+        
+        //Set Up Ad
+        bannerAd.adUnitID = "ca-app-pub-8878911622308650/9665175929"
+        
+        //Making view controller responsible for ad unit
+        bannerAd.rootViewController = self
+        bannerAd.delegate = self
+        
+        bannerAd.load(requestBanner)
+        //
+        
     }
 
+    @IBAction func letsEatPressed(_ sender: Any) {
+        
+        //none
+
+    }
 
 
 }
