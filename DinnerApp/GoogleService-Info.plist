@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>389023832557-ocplvaf3mas9sfu1hqvg2frvuovv10em.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.389023832557-ocplvaf3mas9sfu1hqvg2frvuovv10em</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDbjp7SpdpfDFy-au90DQ8wX6vS-eDBFWo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>389023832557</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dinnerApp.ios</string>
+	<key>PROJECT_ID</key>
+	<string>dinnerapp-c8e3a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dinnerapp-c8e3a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:389023832557:ios:065a8b301f67d940</string>
+	<key>DATABASE_URL</key>
+	<string>https://dinnerapp-c8e3a.firebaseio.com</string>
+</dict>
+</plist>
