@@ -21,28 +21,9 @@
 		869C84071EABFA4200EA9968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869C84051EABFA4200EA9968 /* Main.storyboard */; };
 		869C84091EABFA4200EA9968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869C84081EABFA4200EA9968 /* Assets.xcassets */; };
 		869C840C1EABFA4200EA9968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 869C840A1EABFA4200EA9968 /* LaunchScreen.storyboard */; };
-		869C84171EABFA4200EA9968 /* DinnerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C84161EABFA4200EA9968 /* DinnerAppTests.swift */; };
-		869C84221EABFA4300EA9968 /* DinnerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C84211EABFA4300EA9968 /* DinnerAppUITests.swift */; };
 		869C84391EB1963400EA9968 /* IngredientsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869C84381EB1963400EA9968 /* IngredientsVC.swift */; };
 		86D009C01F070CDD00FA87DE /* Courgette-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86D009BF1F070CDD00FA87DE /* Courgette-Regular.ttf */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		869C84131EABFA4200EA9968 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 869C83F61EABFA4200EA9968 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 869C83FD1EABFA4200EA9968;
-			remoteInfo = DinnerApp;
-		};
-		869C841E1EABFA4300EA9968 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 869C83F61EABFA4200EA9968 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 869C83FD1EABFA4200EA9968;
-			remoteInfo = DinnerApp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		860A920C1EC39BC1000D5A86 /* IngredientsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsButton.swift; sourceTree = "<group>"; };
@@ -61,12 +42,6 @@
 		869C84081EABFA4200EA9968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DinnerApp/Assets.xcassets; sourceTree = "<group>"; };
 		869C840B1EABFA4200EA9968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		869C840D1EABFA4200EA9968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DinnerApp/Info.plist; sourceTree = "<group>"; };
-		869C84121EABFA4200EA9968 /* DinnerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		869C84161EABFA4200EA9968 /* DinnerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerAppTests.swift; sourceTree = "<group>"; };
-		869C84181EABFA4200EA9968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		869C841D1EABFA4300EA9968 /* DinnerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		869C84211EABFA4300EA9968 /* DinnerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerAppUITests.swift; sourceTree = "<group>"; };
-		869C84231EABFA4300EA9968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		869C84381EB1963400EA9968 /* IngredientsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsVC.swift; sourceTree = "<group>"; };
 		86D009BF1F070CDD00FA87DE /* Courgette-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courgette-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,20 +55,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		869C840F1EABFA4200EA9968 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		869C841A1EABFA4300EA9968 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,8 +63,6 @@
 			children = (
 				86129F451EF5F1EB00A8B7C8 /* GoogleMobileAds.framework */,
 				869C84001EABFA4200EA9968 /* DinnerApp */,
-				869C84151EABFA4200EA9968 /* DinnerAppTests */,
-				869C84201EABFA4300EA9968 /* DinnerAppUITests */,
 				869C83FF1EABFA4200EA9968 /* Products */,
 				869C84011EABFA4200EA9968 /* AppDelegate.swift */,
 				869C84081EABFA4200EA9968 /* Assets.xcassets */,
@@ -118,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				869C83FE1EABFA4200EA9968 /* DinnerApp.app */,
-				869C84121EABFA4200EA9968 /* DinnerAppTests.xctest */,
-				869C841D1EABFA4300EA9968 /* DinnerAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,24 +90,6 @@
 				869C842F1EABFA5600EA9968 /* Model */,
 			);
 			path = DinnerApp;
-			sourceTree = "<group>";
-		};
-		869C84151EABFA4200EA9968 /* DinnerAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				869C84161EABFA4200EA9968 /* DinnerAppTests.swift */,
-				869C84181EABFA4200EA9968 /* Info.plist */,
-			);
-			path = DinnerAppTests;
-			sourceTree = "<group>";
-		};
-		869C84201EABFA4300EA9968 /* DinnerAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				869C84211EABFA4300EA9968 /* DinnerAppUITests.swift */,
-				869C84231EABFA4300EA9968 /* Info.plist */,
-			);
-			path = DinnerAppUITests;
 			sourceTree = "<group>";
 		};
 		869C842F1EABFA5600EA9968 /* Model */ = {
@@ -203,42 +142,6 @@
 			productReference = 869C83FE1EABFA4200EA9968 /* DinnerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		869C84111EABFA4200EA9968 /* DinnerAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 869C84291EABFA4300EA9968 /* Build configuration list for PBXNativeTarget "DinnerAppTests" */;
-			buildPhases = (
-				869C840E1EABFA4200EA9968 /* Sources */,
-				869C840F1EABFA4200EA9968 /* Frameworks */,
-				869C84101EABFA4200EA9968 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				869C84141EABFA4200EA9968 /* PBXTargetDependency */,
-			);
-			name = DinnerAppTests;
-			productName = DinnerAppTests;
-			productReference = 869C84121EABFA4200EA9968 /* DinnerAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		869C841C1EABFA4300EA9968 /* DinnerAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 869C842C1EABFA4300EA9968 /* Build configuration list for PBXNativeTarget "DinnerAppUITests" */;
-			buildPhases = (
-				869C84191EABFA4300EA9968 /* Sources */,
-				869C841A1EABFA4300EA9968 /* Frameworks */,
-				869C841B1EABFA4300EA9968 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				869C841F1EABFA4300EA9968 /* PBXTargetDependency */,
-			);
-			name = DinnerAppUITests;
-			productName = DinnerAppUITests;
-			productReference = 869C841D1EABFA4300EA9968 /* DinnerAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -254,18 +157,6 @@
 						DevelopmentTeam = RGJUGQYL7K;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
-					};
-					869C84111EABFA4200EA9968 = {
-						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 869C83FD1EABFA4200EA9968;
-					};
-					869C841C1EABFA4300EA9968 = {
-						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 869C83FD1EABFA4200EA9968;
 					};
 				};
 			};
@@ -283,8 +174,6 @@
 			projectRoot = "";
 			targets = (
 				869C83FD1EABFA4200EA9968 /* DinnerApp */,
-				869C84111EABFA4200EA9968 /* DinnerAppTests */,
-				869C841C1EABFA4300EA9968 /* DinnerAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,20 +189,6 @@
 				86129F481EF5F1FF00A8B7C8 /* GoogleService-Info.plist in Resources */,
 				86129F441EF4AD4600A8B7C8 /* entrees.csv in Resources */,
 				869C84071EABFA4200EA9968 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		869C84101EABFA4200EA9968 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		869C841B1EABFA4300EA9968 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,36 +211,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		869C840E1EABFA4200EA9968 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				869C84171EABFA4200EA9968 /* DinnerAppTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		869C84191EABFA4300EA9968 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				869C84221EABFA4300EA9968 /* DinnerAppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		869C84141EABFA4200EA9968 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 869C83FD1EABFA4200EA9968 /* DinnerApp */;
-			targetProxy = 869C84131EABFA4200EA9968 /* PBXContainerItemProxy */;
-		};
-		869C841F1EABFA4300EA9968 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 869C83FD1EABFA4200EA9968 /* DinnerApp */;
-			targetProxy = 869C841E1EABFA4300EA9968 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		869C84051EABFA4200EA9968 /* Main.storyboard */ = {
@@ -515,60 +361,6 @@
 			};
 			name = Release;
 		};
-		869C842A1EABFA4300EA9968 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DinnerAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.moshimedia.DinnerAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinnerApp.app/DinnerApp";
-			};
-			name = Debug;
-		};
-		869C842B1EABFA4300EA9968 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = DinnerAppTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.moshimedia.DinnerAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinnerApp.app/DinnerApp";
-			};
-			name = Release;
-		};
-		869C842D1EABFA4300EA9968 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = DinnerAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.moshimedia.DinnerAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = DinnerApp;
-			};
-			name = Debug;
-		};
-		869C842E1EABFA4300EA9968 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = DinnerAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ca.moshimedia.DinnerAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = DinnerApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -586,24 +378,6 @@
 			buildConfigurations = (
 				869C84271EABFA4300EA9968 /* Debug */,
 				869C84281EABFA4300EA9968 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		869C84291EABFA4300EA9968 /* Build configuration list for PBXNativeTarget "DinnerAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				869C842A1EABFA4300EA9968 /* Debug */,
-				869C842B1EABFA4300EA9968 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		869C842C1EABFA4300EA9968 /* Build configuration list for PBXNativeTarget "DinnerAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				869C842D1EABFA4300EA9968 /* Debug */,
-				869C842E1EABFA4300EA9968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
