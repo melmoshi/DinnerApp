@@ -21,7 +21,7 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
     
     var number = randomNum()
     
-    var numberTryAgainPressed = 2
+    var numberTryAgainPressed = 1
         //counts the number of times "Try Again" btn has been pressed
 
     var interstitialAd: GADInterstitial?
@@ -57,11 +57,8 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
     
     @IBAction func seeRecipePressed(_ sender: Any) {
         
-        
       if let url = NSURL(string: "\(entree[number].link)") {
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
-        
-        
         }
         
     }
@@ -71,8 +68,6 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
     @IBAction func tryAgainPressed(_ sender: Any) {
         
         numberTryAgainPressed += 1
-        print(numberTryAgainPressed)
-            //can delete later
         
         
         entree.remove(at: number)
@@ -114,15 +109,6 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
         
         entree = []
     }
-    
-    
-//    func createAd () -> GADInterstitial {
-//        
-//        let InterstitialAd = GADInterstitial(adUnitID: "ca-app-pub-8878911622308650/9804776722")
-//        InterstitialAd.load(GADRequest())
-//        return InterstitialAd
-//        
-//    }
     
 
 }
