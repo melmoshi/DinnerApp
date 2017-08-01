@@ -41,7 +41,8 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
         
         let request = GADRequest()
         let interstitial = GADInterstitial(adUnitID: "ca-app-pub-8878911622308650/9804776722")
-        request.testDevices = [kGADSimulatorID]
+        //request.testDevices = [kGADSimulatorID]
+            //COMMENT OUT FOR PUBLISHING (?)
         interstitial.delegate = self
         interstitial.load(request)
         

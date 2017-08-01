@@ -22,7 +22,8 @@ class HomeVC: UIViewController, GADBannerViewDelegate {
         //BANNER AD:
         // Request
         let requestBanner = GADRequest()
-        requestBanner.testDevices = [kGADSimulatorID]
+        //requestBanner.testDevices = [kGADSimulatorID]
+            //^COMMENT OUT FOR PUBLISHING (?)
         
         //Set Up Ad
         bannerAd.adUnitID = "ca-app-pub-8878911622308650/9665175929"
