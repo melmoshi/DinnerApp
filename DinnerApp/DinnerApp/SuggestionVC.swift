@@ -21,7 +21,7 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
     
     var number = randomNum()
     
-    var numberTryAgainPressed = 1
+    var numberTryAgainPressed = 2
         //counts the number of times "Try Again" btn has been pressed
 
     var interstitialAd: GADInterstitial?
@@ -81,7 +81,7 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
             
             entreeLbl.text = entree[number].name
             
-            if numberTryAgainPressed >= 3 {
+            if numberTryAgainPressed >= 4 {
                 
                 if interstitialAd != nil {
                     if interstitialAd!.isReady {

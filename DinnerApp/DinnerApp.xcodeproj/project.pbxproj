@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38103624CF4D3B8FEC22D57A /* Pods_DinnerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ABE04202C0475C6FDF6E73 /* Pods_DinnerApp.framework */; };
 		860A920D1EC39BC1000D5A86 /* IngredientsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860A920C1EC39BC1000D5A86 /* IngredientsButton.swift */; };
 		860A920F1EC41ED3000D5A86 /* SuggestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860A920E1EC41ED3000D5A86 /* SuggestionVC.swift */; };
 		86129F441EF4AD4600A8B7C8 /* entrees.csv in Resources */ = {isa = PBXBuildFile; fileRef = 86129F431EF4AD4600A8B7C8 /* entrees.csv */; };
 		86129F461EF5F1EB00A8B7C8 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86129F451EF5F1EB00A8B7C8 /* GoogleMobileAds.framework */; };
 		86129F481EF5F1FF00A8B7C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86129F471EF5F1FF00A8B7C8 /* GoogleService-Info.plist */; };
+		862CC0C61F4BEA46008A8C5A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 862CC0C51F4BEA46008A8C5A /* Podfile */; };
 		864133171EEB3E3A00306792 /* Entree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864133161EEB3E3A00306792 /* Entree.swift */; };
 		8641331B1EEB4A5300306792 /* EntreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641331A1EEB4A5300306792 /* EntreeView.swift */; };
 		8641331F1EEB8AE500306792 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641331E1EEB8AE500306792 /* RoundButton.swift */; };
@@ -26,11 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18BA35570470C371CB430415 /* Pods-DinnerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinnerApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DinnerApp/Pods-DinnerApp.release.xcconfig"; sourceTree = "<group>"; };
+		3CB2564337ED26AFBD4FD379 /* Pods-DinnerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinnerApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DinnerApp/Pods-DinnerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		860A920C1EC39BC1000D5A86 /* IngredientsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsButton.swift; sourceTree = "<group>"; };
 		860A920E1EC41ED3000D5A86 /* SuggestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionVC.swift; sourceTree = "<group>"; };
 		86129F431EF4AD4600A8B7C8 /* entrees.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = entrees.csv; path = ../entrees.csv; sourceTree = "<group>"; };
 		86129F451EF5F1EB00A8B7C8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		86129F471EF5F1FF00A8B7C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		862CC0C51F4BEA46008A8C5A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		864133161EEB3E3A00306792 /* Entree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entree.swift; sourceTree = "<group>"; };
 		8641331A1EEB4A5300306792 /* EntreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntreeView.swift; sourceTree = "<group>"; };
 		8641331E1EEB8AE500306792 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -44,6 +49,7 @@
 		869C840D1EABFA4200EA9968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = DinnerApp/Info.plist; sourceTree = "<group>"; };
 		869C84381EB1963400EA9968 /* IngredientsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsVC.swift; sourceTree = "<group>"; };
 		86D009BF1F070CDD00FA87DE /* Courgette-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courgette-Regular.ttf"; sourceTree = "<group>"; };
+		F3ABE04202C0475C6FDF6E73 /* Pods_DinnerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DinnerApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,12 +58,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				86129F461EF5F1EB00A8B7C8 /* GoogleMobileAds.framework in Frameworks */,
+				38103624CF4D3B8FEC22D57A /* Pods_DinnerApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37402234BE8BC3C787674C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CB2564337ED26AFBD4FD379 /* Pods-DinnerApp.debug.xcconfig */,
+				18BA35570470C371CB430415 /* Pods-DinnerApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		869C83F51EABFA4200EA9968 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +86,8 @@
 				869C840D1EABFA4200EA9968 /* Info.plist */,
 				86129F471EF5F1FF00A8B7C8 /* GoogleService-Info.plist */,
 				86D009BF1F070CDD00FA87DE /* Courgette-Regular.ttf */,
+				37402234BE8BC3C787674C64 /* Pods */,
+				AB08CF0FF5F14C2B03D821A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +102,7 @@
 		869C84001EABFA4200EA9968 /* DinnerApp */ = {
 			isa = PBXGroup;
 			children = (
+				862CC0C51F4BEA46008A8C5A /* Podfile */,
 				869C84051EABFA4200EA9968 /* Main.storyboard */,
 				869C84311EABFA6400EA9968 /* Controller */,
 				869C84301EABFA5F00EA9968 /* View */,
@@ -122,6 +141,14 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		AB08CF0FF5F14C2B03D821A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3ABE04202C0475C6FDF6E73 /* Pods_DinnerApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 869C84261EABFA4300EA9968 /* Build configuration list for PBXNativeTarget "DinnerApp" */;
 			buildPhases = (
+				3919649D221F50BB74AA4032 /* [CP] Check Pods Manifest.lock */,
 				869C83FA1EABFA4200EA9968 /* Sources */,
 				869C83FB1EABFA4200EA9968 /* Frameworks */,
 				869C83FC1EABFA4200EA9968 /* Resources */,
+				6E60CAB0776ADC2F81725E87 /* [CP] Embed Pods Frameworks */,
+				ACEB6A7B0F1A6D6D76D9FB34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,11 +218,60 @@
 				869C84091EABFA4200EA9968 /* Assets.xcassets in Resources */,
 				86129F481EF5F1FF00A8B7C8 /* GoogleService-Info.plist in Resources */,
 				86129F441EF4AD4600A8B7C8 /* entrees.csv in Resources */,
+				862CC0C61F4BEA46008A8C5A /* Podfile in Resources */,
 				869C84071EABFA4200EA9968 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3919649D221F50BB74AA4032 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E60CAB0776ADC2F81725E87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DinnerApp/Pods-DinnerApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACEB6A7B0F1A6D6D76D9FB34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DinnerApp/Pods-DinnerApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		869C83FA1EABFA4200EA9968 /* Sources */ = {
@@ -329,6 +408,7 @@
 		};
 		869C84271EABFA4300EA9968 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB2564337ED26AFBD4FD379 /* Pods-DinnerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RGJUGQYL7K;
@@ -346,6 +426,7 @@
 		};
 		869C84281EABFA4300EA9968 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18BA35570470C371CB430415 /* Pods-DinnerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RGJUGQYL7K;
