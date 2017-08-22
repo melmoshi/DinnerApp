@@ -10,10 +10,10 @@
 		38103624CF4D3B8FEC22D57A /* Pods_DinnerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3ABE04202C0475C6FDF6E73 /* Pods_DinnerApp.framework */; };
 		860A920D1EC39BC1000D5A86 /* IngredientsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860A920C1EC39BC1000D5A86 /* IngredientsButton.swift */; };
 		860A920F1EC41ED3000D5A86 /* SuggestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860A920E1EC41ED3000D5A86 /* SuggestionVC.swift */; };
-		86129F441EF4AD4600A8B7C8 /* entrees.csv in Resources */ = {isa = PBXBuildFile; fileRef = 86129F431EF4AD4600A8B7C8 /* entrees.csv */; };
 		86129F461EF5F1EB00A8B7C8 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86129F451EF5F1EB00A8B7C8 /* GoogleMobileAds.framework */; };
 		86129F481EF5F1FF00A8B7C8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86129F471EF5F1FF00A8B7C8 /* GoogleService-Info.plist */; };
 		862CC0C61F4BEA46008A8C5A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 862CC0C51F4BEA46008A8C5A /* Podfile */; };
+		862CC0CA1F4C9FF6008A8C5A /* entrees.csv in Resources */ = {isa = PBXBuildFile; fileRef = 862CC0C91F4C9FF6008A8C5A /* entrees.csv */; };
 		864133171EEB3E3A00306792 /* Entree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864133161EEB3E3A00306792 /* Entree.swift */; };
 		8641331B1EEB4A5300306792 /* EntreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641331A1EEB4A5300306792 /* EntreeView.swift */; };
 		8641331F1EEB8AE500306792 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8641331E1EEB8AE500306792 /* RoundButton.swift */; };
@@ -32,10 +32,10 @@
 		3CB2564337ED26AFBD4FD379 /* Pods-DinnerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinnerApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DinnerApp/Pods-DinnerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		860A920C1EC39BC1000D5A86 /* IngredientsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientsButton.swift; sourceTree = "<group>"; };
 		860A920E1EC41ED3000D5A86 /* SuggestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionVC.swift; sourceTree = "<group>"; };
-		86129F431EF4AD4600A8B7C8 /* entrees.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = entrees.csv; path = ../entrees.csv; sourceTree = "<group>"; };
 		86129F451EF5F1EB00A8B7C8 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		86129F471EF5F1FF00A8B7C8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		862CC0C51F4BEA46008A8C5A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		862CC0C91F4C9FF6008A8C5A /* entrees.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = entrees.csv; sourceTree = "<group>"; };
 		864133161EEB3E3A00306792 /* Entree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entree.swift; sourceTree = "<group>"; };
 		8641331A1EEB4A5300306792 /* EntreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntreeView.swift; sourceTree = "<group>"; };
 		8641331E1EEB8AE500306792 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				864133161EEB3E3A00306792 /* Entree.swift */,
-				86129F431EF4AD4600A8B7C8 /* entrees.csv */,
+				862CC0C91F4C9FF6008A8C5A /* entrees.csv */,
 				864133201EEB8CD500306792 /* csv.swift */,
 			);
 			name = Model;
@@ -214,10 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				86D009C01F070CDD00FA87DE /* Courgette-Regular.ttf in Resources */,
+				862CC0CA1F4C9FF6008A8C5A /* entrees.csv in Resources */,
 				869C840C1EABFA4200EA9968 /* LaunchScreen.storyboard in Resources */,
 				869C84091EABFA4200EA9968 /* Assets.xcassets in Resources */,
 				86129F481EF5F1FF00A8B7C8 /* GoogleService-Info.plist in Resources */,
-				86129F441EF4AD4600A8B7C8 /* entrees.csv in Resources */,
 				862CC0C61F4BEA46008A8C5A /* Podfile in Resources */,
 				869C84071EABFA4200EA9968 /* Main.storyboard in Resources */,
 			);

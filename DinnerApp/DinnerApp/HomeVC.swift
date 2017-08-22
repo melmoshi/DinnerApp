@@ -35,6 +35,8 @@ class HomeVC: UIViewController, GADBannerViewDelegate {
         bannerAd.load(requestBanner)
         //
         
+        
+        
     }
 
     @IBAction func letsEatPressed(_ sender: Any) {

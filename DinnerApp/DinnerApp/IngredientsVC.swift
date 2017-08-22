@@ -31,6 +31,7 @@ class IngredientsVC: UIViewController {
     var porkBtnSelected = false
     var chickenBtnSelected = false
     var pastaBtnSelected = false
+        //For Coloring Purposes ^
     
     
 //    let entreeProvider = EntreeProvider() //need to create instance
@@ -168,9 +169,11 @@ func addFood(food: String) {
             let name = row["Name"]!
             let type = row["Type"]!
             let link = row["Link"]!
+            let icon1 = row["Icon1"]!
+            let icon2 = row["Icon2"]!
             
             if type == food {
-                let entreeInfo = Entree(name: name, link: link, type: type)
+                let entreeInfo = Entree(name: name, link: link, type: type, icon1: icon1, icon2: icon2)
                 entree.append(entreeInfo)
             }
             
@@ -183,6 +186,11 @@ func addFood(food: String) {
     // Parse through the CSV
     //If the 'type' is equal to the food put into the function as a parameter, then assign the name, type, and link as an Entree (class)
         //then, add each Entree to the array called "entree"
+    
+    print(entree[10].icon1)   //WHY ARE THESE COMING OUT AS THE FOOD TYPE??????? AHHH
+    print(entree[10].icon2)
+    print(entree[10].type)
+    print(entree[10].name)
 }
 
 

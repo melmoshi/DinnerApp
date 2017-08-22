@@ -457,7 +457,7 @@ Dinner?</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GRILLED CHEESE SANDWICHES!" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pO-3E-dfw">
-                                <rect key="frame" x="12" y="242.66666666666669" width="390" height="106.66666666666669"/>
+                                <rect key="frame" x="12" y="214.66666666666669" width="390" height="106.66666666666669"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="39"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -466,7 +466,7 @@ Dinner?</string>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBs-Hn-ekU">
-                                <rect key="frame" x="132" y="389.33333333333331" width="150" height="40"/>
+                                <rect key="frame" x="132" y="449.33333333333331" width="150" height="40"/>
                                 <color key="backgroundColor" red="0.60784313729999995" green="0.34901960780000002" blue="0.71372549019999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Wrq-Ry-hXp">
@@ -493,7 +493,7 @@ Dinner?</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vD-Gz-xgO" customClass="RoundButton" customModule="DinnerApp" customModuleProvider="target">
-                                <rect key="frame" x="107" y="447.33333333333331" width="200" height="40"/>
+                                <rect key="frame" x="107" y="507.33333333333337" width="200" height="40.000000000000114"/>
                                 <color key="backgroundColor" red="0.16769081799999999" green="0.77329845399999997" blue="0.42722521209999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="3ho-CO-2WS">
@@ -514,7 +514,7 @@ Dinner?</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xr8-KW-COp" customClass="RoundButton" customModule="DinnerApp" customModuleProvider="target">
-                                <rect key="frame" x="91" y="505.33333333333337" width="232" height="40.000000000000114"/>
+                                <rect key="frame" x="91" y="565.33333333333337" width="232" height="40"/>
                                 <color key="backgroundColor" red="0.097523671709233789" green="0.42170528911127919" blue="0.94931891025641024" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="232" id="bDv-M5-sON">
@@ -538,7 +538,7 @@ Dinner?</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's settled! you should make:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEf-dl-onk">
-                                <rect key="frame" x="60.666666666666657" y="180.33333333333334" width="293" height="30.333333333333314"/>
+                                <rect key="frame" x="61" y="152.33333333333334" width="292.33333333333331" height="30.333333333333314"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="22"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -546,18 +546,39 @@ Dinner?</string>
                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="40"/>
                                 </variation>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="kGU-wX-kNG">
+                                <rect key="frame" x="122" y="337.33333333333331" width="170" height="60"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H9o-Xh-ga6">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Gsk-4c-lVo"/>
+                                            <constraint firstAttribute="width" constant="60" id="Xu9-aS-7k2"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zae-l4-JN9">
+                                        <rect key="frame" x="110" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="9aw-wQ-l3C"/>
+                                            <constraint firstAttribute="width" constant="60" id="vqg-sE-kCs"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.41387523310000002" green="0.76051112460000003" blue="0.76769890649999994" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="mEf-dl-onk" firstAttribute="centerX" secondItem="mB1-3O-17z" secondAttribute="centerX" id="4Kd-zH-RcD"/>
-                            <constraint firstItem="0pO-3E-dfw" firstAttribute="centerY" secondItem="mB1-3O-17z" secondAttribute="centerY" constant="-72" id="BRA-pH-IHd"/>
+                            <constraint firstItem="0pO-3E-dfw" firstAttribute="centerY" secondItem="mB1-3O-17z" secondAttribute="centerY" constant="-100" id="BRA-pH-IHd"/>
                             <constraint firstItem="0pO-3E-dfw" firstAttribute="centerX" secondItem="mB1-3O-17z" secondAttribute="centerX" id="CUD-fF-mYC"/>
-                            <constraint firstItem="FBs-Hn-ekU" firstAttribute="top" secondItem="0pO-3E-dfw" secondAttribute="bottom" constant="40" id="KzQ-Mp-Q60"/>
+                            <constraint firstItem="kGU-wX-kNG" firstAttribute="top" secondItem="0pO-3E-dfw" secondAttribute="bottom" constant="16" id="Fzv-Sq-7Ff"/>
                             <constraint firstItem="7vD-Gz-xgO" firstAttribute="top" secondItem="FBs-Hn-ekU" secondAttribute="bottom" constant="18" id="LK3-4M-aa1"/>
                             <constraint firstItem="xr8-KW-COp" firstAttribute="top" secondItem="7vD-Gz-xgO" secondAttribute="bottom" constant="18" id="Lcr-tu-bYM"/>
                             <constraint firstItem="FBs-Hn-ekU" firstAttribute="centerX" secondItem="mB1-3O-17z" secondAttribute="centerX" id="QEK-yC-eUM"/>
+                            <constraint firstItem="FBs-Hn-ekU" firstAttribute="top" secondItem="kGU-wX-kNG" secondAttribute="bottom" constant="52" id="QsS-jJ-Vnw"/>
                             <constraint firstItem="0pO-3E-dfw" firstAttribute="leading" secondItem="mB1-3O-17z" secondAttribute="leading" constant="12" id="Vz0-Qo-y6P"/>
                             <constraint firstItem="xr8-KW-COp" firstAttribute="centerX" secondItem="mB1-3O-17z" secondAttribute="centerX" id="WDe-iI-Nnz"/>
+                            <constraint firstItem="kGU-wX-kNG" firstAttribute="centerX" secondItem="mB1-3O-17z" secondAttribute="centerX" id="c7e-SD-pQ8"/>
                             <constraint firstItem="0pO-3E-dfw" firstAttribute="top" secondItem="mEf-dl-onk" secondAttribute="bottom" constant="32" id="jPP-WX-BgX"/>
                             <constraint firstItem="7vD-Gz-xgO" firstAttribute="centerX" secondItem="mB1-3O-17z" secondAttribute="centerX" id="rEf-65-j68"/>
                             <constraint firstAttribute="trailing" secondItem="0pO-3E-dfw" secondAttribute="trailing" constant="12" id="u0d-gI-yIh"/>
@@ -565,6 +586,8 @@ Dinner?</string>
                     </view>
                     <connections>
                         <outlet property="entreeLbl" destination="0pO-3E-dfw" id="a7S-do-gf7"/>
+                        <outlet property="image1" destination="H9o-Xh-ga6" id="uLS-bX-Bne"/>
+                        <outlet property="image2" destination="Zae-l4-JN9" id="3j8-pM-ns2"/>
                         <outlet property="seeRecipeBtn" destination="FBs-Hn-ekU" id="Q6o-VW-BnN"/>
                         <outlet property="settledLbl" destination="mEf-dl-onk" id="JwD-Uy-8Dg"/>
                         <outlet property="tryAgainBtn" destination="7vD-Gz-xgO" id="GrN-1f-tdM"/>
@@ -579,6 +602,6 @@ Dinner?</string>
         <image name="risotto" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="aCi-OY-2Xp"/>
+        <segue reference="D0S-4d-q1O"/>
     </inferredMetricsTieBreakers>
 </document>
