@@ -187,10 +187,6 @@ func addFood(food: String) {
     //If the 'type' is equal to the food put into the function as a parameter, then assign the name, type, and link as an Entree (class)
         //then, add each Entree to the array called "entree"
     
-    print(entree[10].icon1)   //WHY ARE THESE COMING OUT AS THE FOOD TYPE??????? AHHH
-    print(entree[10].icon2)
-    print(entree[10].type)
-    print(entree[10].name)
 }
 
 

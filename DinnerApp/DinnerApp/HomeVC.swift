@@ -38,6 +38,10 @@ class HomeVC: UIViewController, GADBannerViewDelegate {
         
         
     }
+    
+    override func awakeFromNib() {
+         
+    }
 
     @IBAction func letsEatPressed(_ sender: Any) {
         

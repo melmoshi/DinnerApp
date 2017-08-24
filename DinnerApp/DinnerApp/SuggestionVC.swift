@@ -9,8 +9,7 @@
 import UIKit
 import GameKit
 import GoogleMobileAds
-
-
+import StoreKit
 
 class SuggestionVC: UIViewController, GADInterstitialDelegate {
     
@@ -23,8 +22,9 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
     
     var number = randomNum()
     
-    var numberTryAgainPressed = 2
+    var numberTryAgainPressed = 0
         //counts the number of times "Try Again" btn has been pressed
+
 
     var interstitialAd: GADInterstitial?
         //Google Ads
@@ -55,7 +55,6 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
     
     func interstitialDidDismissScreen(_ ad: GADInterstitial) {
         interstitialAd = createAndLoadInterstitial()
-        numberTryAgainPressed = 0
             //Resets the "Try Again" pressed count to zero
     }
     
@@ -75,6 +74,8 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
         
         numberTryAgainPressed += 1
         
+        
+        
         entree.remove(at: number)
             //removes current Entree from array
         
@@ -86,8 +87,16 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
             entreeLbl.text = entree[number].name
             showIcons()
             
-            if numberTryAgainPressed >= 4 {
-                
+            if numberTryAgainPressed == 3 {
+                if #available(iOS 10.3, *) {
+                    SKStoreReviewController.requestReview()
+                } else {
+                    // Fallback on earlier versions
+                }
+            }
+            
+            if (numberTryAgainPressed % 4) == 0 {
+            
                 if interstitialAd != nil {
                     if interstitialAd!.isReady {
                         
@@ -98,7 +107,8 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
             }
             
         } else {
-            
+            image1.isHidden = true
+            image2.isHidden = true
             entreeLbl.text = "That's All. \n Try Adding More Ingredients."
             settledLbl.text = "Sorry!"
             number = 0
@@ -118,17 +128,20 @@ class SuggestionVC: UIViewController, GADInterstitialDelegate {
     
     func showIcons() {
         
+        image1.isHidden = false
+        image2.isHidden = false
+        
         
         if entree[number].icon1 != "-" {
             image1.image = UIImage(named: "\(entree[number].icon1)")
         } else {
-            image1.image = UIImage(named: "usa")
+            image1.isHidden = true
         }
         
         if entree[number].icon2 != "-" {
             image2.image = UIImage(named: "\(entree[number].icon2)")
         } else {
-            image2.image = UIImage(named: "usa")
+            image2.isHidden = true
         }
      
         print(entree[number].icon1)
