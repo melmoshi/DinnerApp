@@ -7,37 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E33E03C1E1AFCA6D52C90B62E39C5DA /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A326087CFCD888C0213DBD68A49D0F /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 79ADA6F263E4BD552BC6999FB4F8C03D /* UINavigationBar+TCCustomFont.m */; };
-		1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84535F434D576F73C7801B2AD73C4FAD /* UITextField+PlaceholderColor.m */; };
-		3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99959751C2612740ACCA1B3E11234850 /* CSAnimationView.m */; };
-		3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF4490B3EE7BBC1AED94A8503D2575 /* UITextView+TCCustomFont.m */; };
-		4780A8FAE6534CEA42A7A6A5F2D1E550 /* Pods-DinnerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2305EFA5C1F3311999FEDE7BD99FD9B /* Pods-DinnerApp-dummy.m */; };
-		47DEEF08A0640FF87161A6A76BF918FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5013096A89CE092D9E04EDEBDA16951F /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		040D874AEAEC4E0A91B1C75952D01EC5 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E93B156D29C6DBFFE1B4B8F0ECE5CA7 /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DD7213BAF6205B2E72800AF0357603D /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6E97BCD4FB3C045D20B42B494CFC9A /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146630EFBC4D2231A50CB9F11A337EC6 /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A21D3FDC8C8D8B2A031A159C04799FAF /* UINavigationBar+TCCustomFont.m */; };
+		1ED8CB9123077805739DDD87286C23BF /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5AEE382AC84B3D17F8FC72A246FE63 /* UITextField+PlaceholderColor.m */; };
+		29163F45B558AC57E477CED3E723C4B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3A5D78EF2A1342D0396C1C4AF0451491 /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91247C01A20321F8C759A80D3FEC6BFD /* CSAnimationView.m */; };
+		3A5FCCCB61472AD8DFFA13B906E5CB17 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F21602B9839BC41ADE890F23859173 /* UITextView+TCCustomFont.m */; };
+		4C778137BBA41922618A1EA457F691D1 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 577CF7037901D9D70C38E6E56052AD25 /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EF787F1D567516F433EFB2462F43801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C5BD029D3552E153C6B4316F1AAC78 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDE261C2ACF324C356FDEDE0B2D651 /* UIButton+TCCustomFont.m */; };
-		6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172A05D8D2438B15DA8426567768955 /* CSNavigationController.m */; };
-		722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB56C22590CF2F50B7523C39DE92968 /* UITextField+TCCustomFont.m */; };
-		9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3142F4D39674D88D4451627EF922B97B /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F119C7CA91B594631637EDC3C3B6505C /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC9A45167423E712EAC4FEEFCAD2E6 /* CSBlurView.m */; };
-		B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB0C29A33F168953A9875EFB69288ED /* Canvas-dummy.m */; };
-		B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFE6BA08376482CFBD7DED11ED094D1 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C89AD2B6DD0D50AD54428B13AD794 /* UILabel+TCCustomFont.m */; };
-		C5AFBD1622B005BE8A79A986AFAA1CBC /* Pods-DinnerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1145541976B83D4576983085E369E6F /* Pods-DinnerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = A3EAEC1BA003A6B423F5FF357C83E1F2 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD24AD2C9573668CA8E4DDE3F3AD754 /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC89F1574C47348BE2F1527672F45D2 /* CSAnimation.m */; };
-		DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AB0644D642FEB62CF83732D94B02D3 /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1849EE6BA43C2AD1A005BA493A979E /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EB2ADE1AE5C643F51DC3359E73DEAC /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CB63271106C1EE37662CA81529D202 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54B06073BC396D015044362E5C58166F /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 0868D07F9EA89F9F2E64C57631D36AB2 /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC3111F76F6E705205BB03C7ED4E248 /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2E8A1F33B332CC287547AD86169051 /* UIButton+TCCustomFont.m */; };
+		6549C61A563E8A6EA19294978B65CDE4 /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A769D103A047794E737246F4DC66714B /* CSNavigationController.m */; };
+		722043CDFAD463446C6662F706DFB995 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = DB658027C54EED0A18567B2A83F05737 /* UITextField+TCCustomFont.m */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0751B6974E926C63F2695FC05A966CC4 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F4F49995B3CFF52319102494EF26712 /* Pods-DinnerApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2305EFA5C1F3311999FEDE7BD99FD9B /* Pods-DinnerApp-dummy.m */; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9C5C1641E652073320C3AF57420D76D2 /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = E057BDCC48E64E39AEBBD46F580AA9EA /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2D3C435370C60A1018320FE3ADEEBB6 /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B990CDC3A1CEE4EEA1164645E18837BF /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39819FF29E15C9E4636B09B4627D46C /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF08A322068315B09F3D160F431E097 /* CSBlurView.m */; };
+		B6358E1AED1AD2949B366E7EBE95E139 /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2242FBEB555574B8FF0FBE277CBAEB /* Canvas-dummy.m */; };
+		B97E4D9EF786C37745533D53E461EEFE /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = CA04546CAACE4A2C46C1967D9458ED57 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEA3281085FA13AF921E88B84ED5D3F8 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F8268BC4FA2B082099C7AB12F3175F /* UILabel+TCCustomFont.m */; };
+		CF3FEFAD0F17B31334D7890ECD2B8DFE /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DAC76DF5C4CFA775D90FFDE17ED932 /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A5D4C2A40FC204D7AF312759C65F1C /* Pods-DinnerApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1145541976B83D4576983085E369E6F /* Pods-DinnerApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B84B208FBA94896DCB2F353F10E105 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 352B00E1D9DEF945D0828138720B07AC /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A033E57E90F3646D39E7BC566F2067 /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB688BFDB6CB3F23E8EA0B795901433 /* CSAnimation.m */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = E422E78678E3FB7877EFD4C3F0E0E767 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCCCA02E94D84C1C07F9F17D90C3EFD8 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = F109F2EF0278719C7B7A56FF23FA00BC /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E088F64BC2C60DCB23A5C84889A66442 /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FC279C89EFF361D1159786DA3C7614 /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7251150A6F3BC6662A1548688226AB3 /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6390F452C302F53AA1D801EDEAA676C /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA22AEDA36A6EE0C8F5B2966A522516 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB173525839E9C0EAAA8989F46FCE8F5 /* GoogleToolboxForMac-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7803C569FEC178AAF8DB883EA76D8110 /* PBXContainerItemProxy */ = {
+		3E17AEA36483F062B386835321BA9D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		E0AA9DCA97D2AC3090C5BEC7E161A53D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -47,55 +60,70 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03AD41BA8C7D9115FECDA2D7C418070F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BB56C22590CF2F50B7523C39DE92968 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
-		1172A05D8D2438B15DA8426567768955 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		0751B6974E926C63F2695FC05A966CC4 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		0868D07F9EA89F9F2E64C57631D36AB2 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
 		176A1C90F76073DEAC8000CDC6529B5B /* Pods-DinnerApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DinnerApp-frameworks.sh"; sourceTree = "<group>"; };
-		19C5BD029D3552E153C6B4316F1AAC78 /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
-		3142F4D39674D88D4451627EF922B97B /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		19CB63271106C1EE37662CA81529D202 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		1A6D1FA8E475EF125C901C78870A7FA5 /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Canvas.modulemap; sourceTree = "<group>"; };
+		20EEA7FF198770D7A7A082A5525C6D7A /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		2C2E8A1F33B332CC287547AD86169051 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		2DA22AEDA36A6EE0C8F5B2966A522516 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
 		31CC9BB19AD018A2B1AB6E89CE5D2E29 /* Pods-DinnerApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DinnerApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		3DD24AD2C9573668CA8E4DDE3F3AD754 /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
-		4DCDE261C2ACF324C356FDEDE0B2D651 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
-		4E33E03C1E1AFCA6D52C90B62E39C5DA /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
-		5013096A89CE092D9E04EDEBDA16951F /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
-		60CC9A45167423E712EAC4FEEFCAD2E6 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		352B00E1D9DEF945D0828138720B07AC /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		3DF08A322068315B09F3D160F431E097 /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		3F6E97BCD4FB3C045D20B42B494CFC9A /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		4E7BD134F0C58A2E63AC3A544CFD904F /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		577CF7037901D9D70C38E6E56052AD25 /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		5BA83926B35574DE3AB734098C7C3587 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Canvas.framework; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E93B156D29C6DBFFE1B4B8F0ECE5CA7 /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		60BBDB260EEEAD55C2A327D3F42BB9C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A205C19B45F388A1472C7A44B505A4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C1849EE6BA43C2AD1A005BA493A979E /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
-		767544FE00929213F4BEA5BC26B805F1 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Canvas.framework; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79ADA6F263E4BD552BC6999FB4F8C03D /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		77F21602B9839BC41ADE890F23859173 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		783DC25F4510A9F111624B3E92343E20 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		7ADEFA5212598EF44BE8CE22C7C465D3 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
 		7AF4DCD24DCA9422CD93B584DD8E1313 /* Pods-DinnerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinnerApp.debug.xcconfig"; sourceTree = "<group>"; };
-		7FC89F1574C47348BE2F1527672F45D2 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
-		84535F434D576F73C7801B2AD73C4FAD /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
-		857960A75E9536A2C15C85C06131433E /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		7BB688BFDB6CB3F23E8EA0B795901433 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		7CCB30352A20842221346B8956AFF80C /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		81CEE8CFDC3E819B584F66BE0AB8C36C /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		831B10834FB3AAD819A3124523F5BF83 /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		86F8268BC4FA2B082099C7AB12F3175F /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
 		8A78ECDFC7AD02C28A7802654226A72E /* Pods-DinnerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinnerApp.release.xcconfig"; sourceTree = "<group>"; };
-		8D85901B60629D7F8E78EF37882024AD /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
-		8E5C89AD2B6DD0D50AD54428B13AD794 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
-		91AB0644D642FEB62CF83732D94B02D3 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
-		91EB2ADE1AE5C643F51DC3359E73DEAC /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		90C2EDA0A4BD03B62D5AC31300882F13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90FC279C89EFF361D1159786DA3C7614 /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		91247C01A20321F8C759A80D3FEC6BFD /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99959751C2612740ACCA1B3E11234850 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
-		9AFE6BA08376482CFBD7DED11ED094D1 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
-		9CFF4490B3EE7BBC1AED94A8503D2575 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		98DAC76DF5C4CFA775D90FFDE17ED932 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
 		A0C2F07C4FD158869EF9C95B98834820 /* Pods-DinnerApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DinnerApp.modulemap"; sourceTree = "<group>"; };
-		A3EAEC1BA003A6B423F5FF357C83E1F2 /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		A21D3FDC8C8D8B2A031A159C04799FAF /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
 		A53ACEACAC4EB0701CCB2A226E7089CE /* Pods-DinnerApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DinnerApp-resources.sh"; sourceTree = "<group>"; };
+		A769D103A047794E737246F4DC66714B /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		AD5AEE382AC84B3D17F8FC72A246FE63 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
 		B4EF275F28F023FD8B5CFEDEA4590C04 /* Pods-DinnerApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DinnerApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E13808B06CA6597171AD12DAC4813357 /* Pods_DinnerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DinnerApp.framework; path = "Pods-DinnerApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6390F452C302F53AA1D801EDEAA676C /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		B990CDC3A1CEE4EEA1164645E18837BF /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		BD2242FBEB555574B8FF0FBE277CBAEB /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		C83C8E7C7DC53C39B50BD2159EA2E87C /* Pods_DinnerApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DinnerApp.framework; path = "Pods-DinnerApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA04546CAACE4A2C46C1967D9458ED57 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		CAE76FBEBB62E4630B2685FEF8DCD934 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		DB658027C54EED0A18567B2A83F05737 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		DBEBE0A3F4E273CE6F324F3CA18C53A5 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		E057BDCC48E64E39AEBBD46F580AA9EA /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		E1F53537E1FE0EC8ED7E3D216BD8918B /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2305EFA5C1F3311999FEDE7BD99FD9B /* Pods-DinnerApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DinnerApp-dummy.m"; sourceTree = "<group>"; };
-		E8A326087CFCD888C0213DBD68A49D0F /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		E422E78678E3FB7877EFD4C3F0E0E767 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		E4B68DA2CC104A361041CF0A6CFB4887 /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
+		F109F2EF0278719C7B7A56FF23FA00BC /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
 		F1145541976B83D4576983085E369E6F /* Pods-DinnerApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DinnerApp-umbrella.h"; sourceTree = "<group>"; };
-		F119C7CA91B594631637EDC3C3B6505C /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
-		F87B018E7D473A0C8CFC365ECADDF1E4 /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Canvas.modulemap; sourceTree = "<group>"; };
-		FBB0C29A33F168953A9875EFB69288ED /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		FB173525839E9C0EAAA8989F46FCE8F5 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C9F0A3048F07EFBCA26FCCC835C4821 /* Frameworks */ = {
+		D083180D1B272F06452075798307F7A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DEEF08A0640FF87161A6A76BF918FE /* Foundation.framework in Frameworks */,
+				29163F45B558AC57E477CED3E723C4B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,30 +135,151 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CA89213BFC09E3BA08DB998965F2724 /* Support Files */ = {
+		001F5741CDF62C6D3E3020510AC44146 /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				F87B018E7D473A0C8CFC365ECADDF1E4 /* Canvas.modulemap */,
-				8D85901B60629D7F8E78EF37882024AD /* Canvas.xcconfig */,
-				FBB0C29A33F168953A9875EFB69288ED /* Canvas-dummy.m */,
-				857960A75E9536A2C15C85C06131433E /* Canvas-prefix.pch */,
-				F119C7CA91B594631637EDC3C3B6505C /* Canvas-umbrella.h */,
-				03AD41BA8C7D9115FECDA2D7C418070F /* Info.plist */,
+				89EE21A6DFF4211D19DD707AB647732A /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		130CF50D50AB9F73546E44F4747B5BA5 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				5E93B156D29C6DBFFE1B4B8F0ECE5CA7 /* Canvas.h */,
+				3F6E97BCD4FB3C045D20B42B494CFC9A /* CSAnimation.h */,
+				7BB688BFDB6CB3F23E8EA0B795901433 /* CSAnimation.m */,
+				B6390F452C302F53AA1D801EDEAA676C /* CSAnimationView.h */,
+				91247C01A20321F8C759A80D3FEC6BFD /* CSAnimationView.m */,
+				577CF7037901D9D70C38E6E56052AD25 /* CSBlurView.h */,
+				3DF08A322068315B09F3D160F431E097 /* CSBlurView.m */,
+				CA04546CAACE4A2C46C1967D9458ED57 /* CSNavigationController.h */,
+				A769D103A047794E737246F4DC66714B /* CSNavigationController.m */,
+				90FC279C89EFF361D1159786DA3C7614 /* UIButton+TCCustomFont.h */,
+				2C2E8A1F33B332CC287547AD86169051 /* UIButton+TCCustomFont.m */,
+				E057BDCC48E64E39AEBBD46F580AA9EA /* UILabel+TCCustomFont.h */,
+				86F8268BC4FA2B082099C7AB12F3175F /* UILabel+TCCustomFont.m */,
+				F109F2EF0278719C7B7A56FF23FA00BC /* UINavigationBar+TCCustomFont.h */,
+				A21D3FDC8C8D8B2A031A159C04799FAF /* UINavigationBar+TCCustomFont.m */,
+				98DAC76DF5C4CFA775D90FFDE17ED932 /* UITextField+PlaceholderColor.h */,
+				AD5AEE382AC84B3D17F8FC72A246FE63 /* UITextField+PlaceholderColor.m */,
+				0868D07F9EA89F9F2E64C57631D36AB2 /* UITextField+TCCustomFont.h */,
+				DB658027C54EED0A18567B2A83F05737 /* UITextField+TCCustomFont.m */,
+				352B00E1D9DEF945D0828138720B07AC /* UITextView+TCCustomFont.h */,
+				77F21602B9839BC41ADE890F23859173 /* UITextView+TCCustomFont.m */,
+				5E8573565613E2E297C71466402BDD2D /* Support Files */,
+			);
+			name = Canvas;
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		1D22D9F2EBD8ED758F2CB92CBCB8AFD2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB30352A20842221346B8956AFF80C /* GoogleToolboxForMac.modulemap */,
+				7ADEFA5212598EF44BE8CE22C7C465D3 /* GoogleToolboxForMac.xcconfig */,
+				FB173525839E9C0EAAA8989F46FCE8F5 /* GoogleToolboxForMac-dummy.m */,
+				CAE76FBEBB62E4630B2685FEF8DCD934 /* GoogleToolboxForMac-prefix.pch */,
+				0751B6974E926C63F2695FC05A966CC4 /* GoogleToolboxForMac-umbrella.h */,
+				90C2EDA0A4BD03B62D5AC31300882F13 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		26D9BFE774677E771F8FCFB6BFAB9BB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				130CF50D50AB9F73546E44F4747B5BA5 /* Canvas */,
+				6C51DDF052179BF199182EA1EDD15DA1 /* Firebase */,
+				696A5758401A40BAFABE13BD1D7B9DF7 /* FirebaseAnalytics */,
+				56815CA31C74E1D738CD26D07E73C7A4 /* FirebaseCore */,
+				001F5741CDF62C6D3E3020510AC44146 /* FirebaseDatabase */,
+				38DCBE6F026959B0DAC5F807B1EFBB7E /* FirebaseInstanceID */,
+				773B88B05AAE7A58BB3FC478542FADD8 /* GoogleToolboxForMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38DCBE6F026959B0DAC5F807B1EFBB7E /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				42A659450788DE224E05FF6ABEAE3546 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		42A659450788DE224E05FF6ABEAE3546 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20EEA7FF198770D7A7A082A5525C6D7A /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56815CA31C74E1D738CD26D07E73C7A4 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				E44A4F6A5D4F7DA1F475C9AC28BC4484 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		5E8573565613E2E297C71466402BDD2D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D1FA8E475EF125C901C78870A7FA5 /* Canvas.modulemap */,
+				E4B68DA2CC104A361041CF0A6CFB4887 /* Canvas.xcconfig */,
+				BD2242FBEB555574B8FF0FBE277CBAEB /* Canvas-dummy.m */,
+				831B10834FB3AAD819A3124523F5BF83 /* Canvas-prefix.pch */,
+				B990CDC3A1CEE4EEA1164645E18837BF /* Canvas-umbrella.h */,
+				60BBDB260EEEAD55C2A327D3F42BB9C2 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Canvas";
 			sourceTree = "<group>";
 		};
-		3082214D49C062DC60F5288E854919C2 /* Products */ = {
+		696A5758401A40BAFABE13BD1D7B9DF7 /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				767544FE00929213F4BEA5BC26B805F1 /* Canvas.framework */,
-				E13808B06CA6597171AD12DAC4813357 /* Pods_DinnerApp.framework */,
+				E622CF2A62BC7D933AF64A49AEFEF3B9 /* Frameworks */,
 			);
-			name = Products;
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		6C51DDF052179BF199182EA1EDD15DA1 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				CE89B9241F5F1DDE5E84A2F5D3A5DCFC /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		773B88B05AAE7A58BB3FC478542FADD8 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				F5889DDC7A5B4CEB0A24DEEA61FABE99 /* Defines */,
+				825BA5B950BF95795DA5FF20E549D5A8 /* NSData+zlib */,
+				1D22D9F2EBD8ED758F2CB92CBCB8AFD2 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -138,10 +287,37 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F1C78F9585DEF83568C1DDD945EBD0E5 /* Pods */,
-				3082214D49C062DC60F5288E854919C2 /* Products */,
+				26D9BFE774677E771F8FCFB6BFAB9BB0 /* Pods */,
+				85BB7E415D9E0EC828401C7DF52BABB3 /* Products */,
 				ABD814DBFF630EB416CEA700AACA8190 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		825BA5B950BF95795DA5FF20E549D5A8 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				E422E78678E3FB7877EFD4C3F0E0E767 /* GTMNSData+zlib.h */,
+				2DA22AEDA36A6EE0C8F5B2966A522516 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		85BB7E415D9E0EC828401C7DF52BABB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA83926B35574DE3AB734098C7C3587 /* Canvas.framework */,
+				E1F53537E1FE0EC8ED7E3D216BD8918B /* GoogleToolboxForMac.framework */,
+				C83C8E7C7DC53C39B50BD2159EA2E87C /* Pods_DinnerApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89EE21A6DFF4211D19DD707AB647732A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81CEE8CFDC3E819B584F66BE0AB8C36C /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		ABD814DBFF630EB416CEA700AACA8190 /* Targets Support Files */ = {
@@ -178,6 +354,14 @@
 			path = "Target Support Files/Pods-DinnerApp";
 			sourceTree = "<group>";
 		};
+		CE89B9241F5F1DDE5E84A2F5D3A5DCFC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BD134F0C58A2E63AC3A544CFD904F /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,52 +370,38 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F1C78F9585DEF83568C1DDD945EBD0E5 /* Pods */ = {
+		E44A4F6A5D4F7DA1F475C9AC28BC4484 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F285B768172B5ED6481021F0E86C5E7A /* Canvas */,
+				DBEBE0A3F4E273CE6F324F3CA18C53A5 /* FirebaseCore.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F285B768172B5ED6481021F0E86C5E7A /* Canvas */ = {
+		E622CF2A62BC7D933AF64A49AEFEF3B9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4E33E03C1E1AFCA6D52C90B62E39C5DA /* Canvas.h */,
-				E8A326087CFCD888C0213DBD68A49D0F /* CSAnimation.h */,
-				7FC89F1574C47348BE2F1527672F45D2 /* CSAnimation.m */,
-				91EB2ADE1AE5C643F51DC3359E73DEAC /* CSAnimationView.h */,
-				99959751C2612740ACCA1B3E11234850 /* CSAnimationView.m */,
-				5013096A89CE092D9E04EDEBDA16951F /* CSBlurView.h */,
-				60CC9A45167423E712EAC4FEEFCAD2E6 /* CSBlurView.m */,
-				9AFE6BA08376482CFBD7DED11ED094D1 /* CSNavigationController.h */,
-				1172A05D8D2438B15DA8426567768955 /* CSNavigationController.m */,
-				6C1849EE6BA43C2AD1A005BA493A979E /* UIButton+TCCustomFont.h */,
-				4DCDE261C2ACF324C356FDEDE0B2D651 /* UIButton+TCCustomFont.m */,
-				3142F4D39674D88D4451627EF922B97B /* UILabel+TCCustomFont.h */,
-				8E5C89AD2B6DD0D50AD54428B13AD794 /* UILabel+TCCustomFont.m */,
-				91AB0644D642FEB62CF83732D94B02D3 /* UINavigationBar+TCCustomFont.h */,
-				79ADA6F263E4BD552BC6999FB4F8C03D /* UINavigationBar+TCCustomFont.m */,
-				A3EAEC1BA003A6B423F5FF357C83E1F2 /* UITextField+PlaceholderColor.h */,
-				84535F434D576F73C7801B2AD73C4FAD /* UITextField+PlaceholderColor.m */,
-				19C5BD029D3552E153C6B4316F1AAC78 /* UITextField+TCCustomFont.h */,
-				0BB56C22590CF2F50B7523C39DE92968 /* UITextField+TCCustomFont.m */,
-				3DD24AD2C9573668CA8E4DDE3F3AD754 /* UITextView+TCCustomFont.h */,
-				9CFF4490B3EE7BBC1AED94A8503D2575 /* UITextView+TCCustomFont.m */,
-				1CA89213BFC09E3BA08DB998965F2724 /* Support Files */,
+				783DC25F4510A9F111624B3E92343E20 /* FirebaseAnalytics.framework */,
 			);
-			name = Canvas;
-			path = Canvas;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5889DDC7A5B4CEB0A24DEEA61FABE99 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				19CB63271106C1EE37662CA81529D202 /* GTMDefines.h */,
+			);
+			name = Defines;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4BC2F581E87DB05637CC3B2619E0EA88 /* Headers */ = {
+		29F97165A2D0150D31E84E308AEB8799 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5AFBD1622B005BE8A79A986AFAA1CBC /* Pods-DinnerApp-umbrella.h in Headers */,
+				D3A5D4C2A40FC204D7AF312759C65F1C /* Pods-DinnerApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,25 +424,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7B5F1259DA01DF7342526509F0F631F0 /* Pods-DinnerApp */ = {
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 661E7919832A5EEDCCB98D9A66998756 /* Build configuration list for PBXNativeTarget "Pods-DinnerApp" */;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
 			buildPhases = (
-				8A28D1B3F73EDC239748F2EEF824819A /* Sources */,
-				0C9F0A3048F07EFBCA26FCCC835C4821 /* Frameworks */,
-				4BC2F581E87DB05637CC3B2619E0EA88 /* Headers */,
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F83DCCF76F4173BB8C7F4C2644E10638 /* PBXTargetDependency */,
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = E1F53537E1FE0EC8ED7E3D216BD8918B /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39A8C2DFB909207F3F4467636E532BED /* Pods-DinnerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5290A3994228A0B5CC10C41A3A7B9C8 /* Build configuration list for PBXNativeTarget "Pods-DinnerApp" */;
+			buildPhases = (
+				8A37EDCF175F29D427F76E59F6696EEC /* Sources */,
+				D083180D1B272F06452075798307F7A5 /* Frameworks */,
+				29F97165A2D0150D31E84E308AEB8799 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24437CDF655B44D5E040E2B29CF7DA52 /* PBXTargetDependency */,
+				A9C9F9108ED0ACFCD96AFC464F20FFB6 /* PBXTargetDependency */,
 			);
 			name = "Pods-DinnerApp";
 			productName = "Pods-DinnerApp";
-			productReference = E13808B06CA6597171AD12DAC4813357 /* Pods_DinnerApp.framework */;
+			productReference = C83C8E7C7DC53C39B50BD2159EA2E87C /* Pods_DinnerApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */ = {
@@ -289,7 +487,7 @@
 			);
 			name = Canvas;
 			productName = Canvas;
-			productReference = 767544FE00929213F4BEA5BC26B805F1 /* Canvas.framework */;
+			productReference = 5BA83926B35574DE3AB734098C7C3587 /* Canvas.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -309,22 +507,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3082214D49C062DC60F5288E854919C2 /* Products */;
+			productRefGroup = 85BB7E415D9E0EC828401C7DF52BABB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */,
-				7B5F1259DA01DF7342526509F0F631F0 /* Pods-DinnerApp */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				39A8C2DFB909207F3F4467636E532BED /* Pods-DinnerApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A28D1B3F73EDC239748F2EEF824819A /* Sources */ = {
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4780A8FAE6534CEA42A7A6A5F2D1E550 /* Pods-DinnerApp-dummy.m in Sources */,
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A37EDCF175F29D427F76E59F6696EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4F49995B3CFF52319102494EF26712 /* Pods-DinnerApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,18 +557,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F83DCCF76F4173BB8C7F4C2644E10638 /* PBXTargetDependency */ = {
+		24437CDF655B44D5E040E2B29CF7DA52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Canvas;
 			target = F6497E6E7D485D7D0D7E0CD8E84BFCD4 /* Canvas */;
-			targetProxy = 7803C569FEC178AAF8DB883EA76D8110 /* PBXContainerItemProxy */;
+			targetProxy = E0AA9DCA97D2AC3090C5BEC7E161A53D /* PBXContainerItemProxy */;
+		};
+		A9C9F9108ED0ACFCD96AFC464F20FFB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 3E17AEA36483F062B386835321BA9D8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0098E0F0E578A43FC7BD6748A2A9FF4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D85901B60629D7F8E78EF37882024AD /* Canvas.xcconfig */;
+			baseConfigurationReference = E4B68DA2CC104A361041CF0A6CFB4887 /* Canvas.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -391,16 +605,16 @@
 			};
 			name = Debug;
 		};
-		03037151C3A41FDACD344EE4355EAA1D /* Debug */ = {
+		1716F690985CBFC5E5319525DDD12823 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AF4DCD24DCA9422CD93B584DD8E1313 /* Pods-DinnerApp.debug.xcconfig */;
+			baseConfigurationReference = 8A78ECDFC7AD02C28A7802654226A72E /* Pods-DinnerApp.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -413,7 +627,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DinnerApp/Pods-DinnerApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -425,7 +639,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -471,9 +685,9 @@
 			};
 			name = Release;
 		};
-		467C1B6FD9780CCFE79A73A8437D87DF /* Release */ = {
+		4E3BB37312E5D4518EDFAD78B7C89440 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A78ECDFC7AD02C28A7802654226A72E /* Pods-DinnerApp.release.xcconfig */;
+			baseConfigurationReference = 7ADEFA5212598EF44BE8CE22C7C465D3 /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -487,20 +701,17 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DinnerApp/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DinnerApp/Pods-DinnerApp.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DinnerApp;
+				PRODUCT_NAME = GoogleToolboxForMac;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -509,7 +720,7 @@
 		};
 		76619C3FA53E462B3C10551BD16DC713 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D85901B60629D7F8E78EF37882024AD /* Canvas.xcconfig */;
+			baseConfigurationReference = E4B68DA2CC104A361041CF0A6CFB4887 /* Canvas.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -539,6 +750,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADEFA5212598EF44BE8CE22C7C465D3 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -588,6 +832,42 @@
 			};
 			name = Debug;
 		};
+		E3F8FCCA0956B9DEBCA264169FE5B6D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF4DCD24DCA9422CD93B584DD8E1313 /* Pods-DinnerApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DinnerApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DinnerApp/Pods-DinnerApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DinnerApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -609,11 +889,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		661E7919832A5EEDCCB98D9A66998756 /* Build configuration list for PBXNativeTarget "Pods-DinnerApp" */ = {
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03037151C3A41FDACD344EE4355EAA1D /* Debug */,
-				467C1B6FD9780CCFE79A73A8437D87DF /* Release */,
+				BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */,
+				4E3BB37312E5D4518EDFAD78B7C89440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5290A3994228A0B5CC10C41A3A7B9C8 /* Build configuration list for PBXNativeTarget "Pods-DinnerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F8FCCA0956B9DEBCA264169FE5B6D0 /* Debug */,
+				1716F690985CBFC5E5319525DDD12823 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
